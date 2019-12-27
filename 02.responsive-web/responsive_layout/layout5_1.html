@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #wrap {
+        width: 1200px;
+        margin: 0 auto;
+      }
+      header {
+        height: 150px;
+        background-color: red;
+      }
+      aside {
+        width: 30%;
+        height: 600px;
+        background-color: orange;
+        float: left;
+      }
+      .article1 {
+        width: 70%;
+        height: 200px;
+        background-color: yellow;
+        float: left;
+      }
+      .article2 {
+        width: 70%;
+        height: 200px;
+        background-color: green;
+        float: left;
+      }
+      .article3 {
+        width: 70%;
+        height: 200px;
+        background-color: blue;
+        float: left;
+      }
+      footer {
+        height: 150px;
+        background-color: purple;
+        clear: both;
+      }
+      @media (max-width: 1220px) {
+        #wrap {
+          width: 100%;
+        }
+        .article1 {
+          height: 300px;
+        }
+        .article2 {
+          height: 300px;
+        }
+        .article3 {
+          width: 100%;
+          float: none;
+          clear: both;
+        }
+        footer {
+          clear: none;
+        }
+      }
+      @media (max-width: 768px) {
+        aside {
+          width: 100%;
+          float: none;
+          height: 300px;
+        }
+        .article1 {
+          width: 50%;
+        }
+        .article2 {
+          width: 50%;
+        }
+      }
+      @media (max-width: 480px) {
+        .article1,
+        .article2 {
+          width: 100%;
+          float: none;
+          height: 400px;
+        }
+        .article3 {
+          clear: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <header></header>
+      <aside></aside>
+      <article class="article1"></article>
+      <article class="article2"></article>
+      <article class="article3"></article>
+      <footer></footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+/* 게시판 3 */
+.cont .col3 {
+  margin-right: 0;
+  padding-right: 0;
+}
+/* LOGIN */
+#login-wrap {
+  background: #f2f4f5;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+/* LOGIN HEADER */
+.login_header {
+  overflow: hidden;
+  font-size: 12px;
+  height: 30px;
+}
+.login_header .lh_check {
+  float: left;
+  padding-right: 15px;
+}
+.login_header .lh_check .input_check {
+  vertical-align: -2px;
+}
+.login_header .lh_ip {
+  float: left;
+}
+.login_header .lh_ip em {
+  color: #0093bd;
+  text-decoration: underline;
+}
+
+/* LOGIN CONTENT */
+.login_content {
+  position: relative;
+}
+.login_content .input_text {
+  width: 180px;
+  height: 16px;
+  padding: 2px 5px;
+  border: 1px solid #bebebe;
+  margin-bottom: 3px;
+  background: #fff;
+}
+.login_content .lc_btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 62px;
+  height: 47px;
+  background: #fff;
+  border: 1px solid #bebebe;
+}
+
+/* LOGIN FOOTER */
+.loing_footer {
+  margin-top: 5px;
+}
+.loing_footer li {
+  display: inline;
+}
+.loing_footer li a {
+  font-size: 12px;
+}
+
+/* POPUP */
+.popup h4 {
+  font-size: 14px;
+  color: #0093bd;
+  padding-bottom: 4px;
+  font-weight: 700;
+}
+.popup ul {
+  overflow: hidden;
+}
+.popup li {
+  width: 83px;
+  float: left;
+  margin-right: 5px;
+}
+.popup li.last {
+  margin-right: 0;
+}
+.popup li img {
+  width: 100%;
+}

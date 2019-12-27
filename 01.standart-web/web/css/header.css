@@ -1,0 +1,71 @@
+/* 헤더 메뉴 */
+.header .header-menu {
+  text-align: right;
+}
+.header .header-menu a {
+  color: #fff;
+  padding: 10px 0px 10px 13px;
+  display: inline-block;
+}
+.header .header-menu a:hover {
+  color: #666;
+}
+
+/* 헤더 타이틀 */
+.header .header-tit {
+  text-align: center;
+}
+.header .header-tit h1 {
+  color: #fff;
+  background: #4aa8d4;
+  display: inline-block;
+  font-size: 28px;
+  padding: 5px 20px 6px 20px;
+  margin-top: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.header .header-tit a {
+  display: inline-block;
+  background: #2698cb;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 20px 6px 20px;
+}
+
+/* 헤더 아이콘 */
+.header .header-icon {
+  text-align: center;
+  margin-top: 30px;
+}
+.header .header-icon a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url(../img/icon.png);
+  margin: 0 3px;
+}
+.header .header-icon a.icon1 {
+  background-position: 0px 0px;
+}
+.header .header-icon a.icon2 {
+  background-position: 0px -60px;
+}
+.header .header-icon a.icon3 {
+  background-position: 0px -120px;
+}
+.header .header-icon a.icon4 {
+  background-position: 0px -180px;
+}
+.header .header-icon a:hover.icon1 {
+  background-position: -60px 0px;
+}
+.header .header-icon a:hover.icon2 {
+  background-position: -60px -60px;
+}
+.header .header-icon a:hover.icon3 {
+  background-position: -60px -120px;
+}
+.header .header-icon a:hover.icon4 {
+  background-position: -60px -180px;
+}

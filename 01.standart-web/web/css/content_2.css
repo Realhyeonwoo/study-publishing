@@ -1,0 +1,50 @@
+/* 게시판 2 */
+.cont .col2 {
+  border-right: 1px solid #c8c8c8;
+}
+
+.notice3 {
+  position: relative;
+}
+.notice3 h4 {
+  font-size: 14px;
+  color: #0093bd;
+  padding-bottom: 4px;
+  font-weight: 700;
+}
+.notice3 ul li {
+  position: relative;
+  padding: 8px 0 14px 60px;
+}
+.notice3 ul li a img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  border: 1px solid #0093bd;
+}
+.notice3 ul li a strong {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.notice3 ul li a span {
+  display: block;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.notice3 a.more {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  background: url(../img/icon.png) -150px -90px;
+  width: 17px;
+  height: 17px;
+}
+.notice3 a.more:hover {
+  background-position: -167px -90px;
+}

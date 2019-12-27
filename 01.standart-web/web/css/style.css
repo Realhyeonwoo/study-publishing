@@ -1,0 +1,23 @@
+/* 전체 레이아웃 */
+#wrap {
+}
+#header {
+  height: 325px;
+  background: url(../img/header_bg.jpg) center top repeat-x;
+  border: 3px solid red;
+}
+#contents {
+  border: 3px solid green;
+}
+#footer {
+  height: 200px;
+  border: 3px solid blue;
+}
+
+/* 컨테이너 */
+.container {
+  width: 990px;
+  margin: 0 auto;
+  height: inherit;
+  background: rgba(255, 255, 0, 0.1);
+}
