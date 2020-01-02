@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* 로우 영역 */
+.row {
+  padding: 0 28px;
+}
+
+@media (max-width: 1290px) {
+  .container {
+    width: 100%;
+  }
+}
