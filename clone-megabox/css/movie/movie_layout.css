@@ -1,3 +1,6 @@
+#movie {
+  background-color: #f8f8f8;
+}
 .movie {
   padding: 100px 0;
 }
@@ -5,5 +8,5 @@
   margin-bottom: 60px;
 }
 .movie .movie_chart {
-  height: 592px;
+  overflow: hidden;
 }
