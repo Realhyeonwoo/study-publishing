@@ -66,3 +66,34 @@
   display: block;
   font-weight: bold;
 }
+
+@media (max-width: 960px) {
+  .opening {
+    padding: 50px 0;
+  }
+  .opening .open_box {
+    display: none;
+  }
+  .opening .desc {
+    background: none;
+    font-size: 23px;
+  }
+}
+@media (max-width: 600px) {
+  .opening {
+    padding: 20px 0;
+  }
+  .opening h2 .grand {
+    background-size: 300px;
+    background-position: 0 -105px;
+    width: 197px;
+    height: 24px;
+  }
+  .opening .date {
+    display: none;
+  }
+  .opening .desc {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
