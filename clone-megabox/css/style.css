@@ -14,3 +14,8 @@
 @import "./opening/opening.css";
 
 @import "./new/new.css";
+
+@import "./help_section/help_layout.css";
+@import "./help_section/notice.css";
+@import "./help_section/discount_card.css";
+@import "./help_section/service.css";

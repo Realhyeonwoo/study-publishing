@@ -1,0 +1,35 @@
+.service {
+}
+.service ul {
+  overflow: hidden;
+}
+.service ul li {
+  float: left;
+  width: 50%;
+  /* height: 193px; */
+  box-sizing: border-box;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+}
+.service ul li:nth-child(1) {
+  border-right: 0;
+  border-bottom: 0;
+}
+.service ul li:nth-child(2) {
+  border-bottom: 0;
+}
+.service ul li:nth-child(3) {
+  border-right: 0;
+}
+.service ul li a span {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 20px auto 0 auto;
+  overflow: hidden;
+}
+.service ul li a strong {
+  color: #666;
+  font-size: 18px;
+  font-weight: 500;
+}
