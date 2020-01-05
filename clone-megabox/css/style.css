@@ -1,6 +1,6 @@
 @import "./reset.css";
-
 @import "./layout.css";
+
 @import "./header/header.css";
 @import "./banner/banner.css";
 @import "./banner/ban_slider.css";
@@ -19,3 +19,5 @@
 @import "./help_section/notice.css";
 @import "./help_section/discount_card.css";
 @import "./help_section/service.css";
+
+@import "./footer/footer.css";
