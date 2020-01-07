@@ -14,7 +14,7 @@
   background: url(../../img/swiper01.jpg) no-repeat center center;
   background-size: cover;
 }
-.slider .swiper-slide h2 {
+.slider .swiper-slide h3 {
   font-size: 60px;
   line-height: 65px;
   color: #fff;
@@ -22,7 +22,7 @@
   display: inline-block;
   position: relative;
 }
-.slider .swiper-slide h2::after {
+.slider .swiper-slide h3::after {
   content: "";
   width: 100%;
   height: 1px;
@@ -31,7 +31,7 @@
   left: 0;
   bottom: 0;
 }
-.slider .swiper-slide h2 em {
+.slider .swiper-slide h3 em {
   display: block;
   font-size: 59px;
   font-weight: 100;
@@ -43,12 +43,6 @@
 }
 
 @media (max-width: 1290px) {
-  .slider .swiper-slide h2 {
-    padding-left: 20px;
-  }
-  .slider .swiper-slide p {
-    padding-left: 20px;
-  }
   .swiper-button-prev,
   .swiper-button-next {
     display: none;
@@ -59,8 +53,15 @@
     height: 500px;
   }
   .slider .swiper-slide h2 {
-    margin-top: 160px;
+    margin-top: 170px;
     font-size: 37px;
+    line-height: 45px;
+  }
+  .slider .swiper-slide h2:after {
+    bottom: -15px;
+  }
+  .slider .swiper-slide h3 em {
+    font-size: 34px;
   }
   .slider .swiper-slide p {
     font-size: 16px;
@@ -71,38 +72,20 @@
   .slider {
     height: 400px;
   }
-  .slider .swiper-slide h2 {
+  .slider .swiper-slide h3 {
     margin-top: 140px;
     font-size: 24px;
     line-height: 30px;
   }
-  .slider .swiper-slide h2:after {
+  .slider .swiper-slide h3:after {
     bottom: -5px;
   }
-  .slider .swiper-slide h2 em {
+  .slider .swiper-slide h3 em {
     font-size: 20px;
   }
   .slider .swiper-slide p {
     font-size: 14px;
     padding-top: 25px;
-  }
-
-  .banner_menu {
-    top: 16px;
-  }
-  .banner_menu .bm_right li.white a {
-    font-size: 14px;
-    padding: 3px 5px 5px 5px;
-    color: #fff;
-    background: rgba(0, 0, 0, 0.6);
-    border-color: #fff;
-  }
-  .banner_menu .bm_right li.purple a {
-    font-size: 14px;
-    padding: 3px 5px 5px 5px;
-    color: #fff;
-    background: rgba(0, 0, 0, 0.6);
-    border-color: #fff;
   }
   .swiper-pagination-bullet {
     width: 13px !important;
