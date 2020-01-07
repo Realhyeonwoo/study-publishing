@@ -1,12 +1,10 @@
-@charset "utf-8";
-
-/* 레이아웃 */
 #header {
   width: 100%;
+  height: 63px;
   border-bottom: 1px solid #c6c6c6;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-/* 헤더 영역 */
 .header h1 {
   float: left;
 }
@@ -26,6 +24,7 @@
 .header h1 strong img {
   width: 126px;
 }
+
 .header .nav {
   float: right;
 }
@@ -40,13 +39,12 @@
 }
 .header .nav ul li a {
   display: block;
-  padding: 19px 10px;
-  font-size: 17px;
+  padding: 19px 19px;
+  font-size: 14px;
   font-weight: 700;
   color: #444;
 }
 
-/* 모바일 메뉴 */
 #mNav {
   display: none;
   position: absolute;
@@ -67,7 +65,7 @@
   height: 4px;
   background: #39106a;
 }
-.ham span:before {
+.ham span::before {
   content: "";
   width: 25px;
   height: 4px;
@@ -76,7 +74,7 @@
   left: 0;
   bottom: -7px;
 }
-.ham span:after {
+.ham span::after {
   content: "";
   width: 25px;
   height: 4px;
@@ -86,6 +84,9 @@
   top: -7px;
 }
 @media (max-width: 1290px) {
+  .container {
+    width: 100%;
+  }
   .header .nav ul li {
     width: 93px;
   }
@@ -101,14 +102,11 @@
   }
 }
 @media (max-width: 1024px) {
-  #mNav {
-    display: block;
-  }
-  .nav {
+  .header .nav {
     display: none;
   }
-  .row {
-    padding: 0 24px;
+  #mNav {
+    display: block;
   }
   .header h1 {
     float: none;
@@ -118,23 +116,17 @@
     left: 24px;
   }
 }
-@media (max-width: 960px) {
-}
 @media (max-width: 768px) {
-  .row {
-    padding: 0 16px;
-  }
-  #mNav {
-    right: 6px;
+  .header h1 strong {
+    display: none;
   }
   .header h1 {
     text-align: left;
   }
-  .header h1 strong {
-    display: none;
+  #mNav {
+    right: 6px;
   }
-}
-@media (max-width: 480px) {
-}
-@media (max-width: 320px) {
+  .row {
+    padding: 0 16px;
+  }
 }
