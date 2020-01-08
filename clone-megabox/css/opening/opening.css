@@ -27,7 +27,7 @@
   font-size: 35px;
   font-weight: 300;
   padding-bottom: 20px;
-  background: url(../img/bar.png) no-repeat bottom center;
+  background: url(../../img/bar.png) no-repeat bottom center;
   background-size: 100%;
 }
 .opening .open_box {
