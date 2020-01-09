@@ -1,5 +1,3 @@
-#new {
-}
 .new {
   padding: 100px 0;
   position: relative;
@@ -22,7 +20,7 @@
 .new .new_right {
   width: 400px;
   height: 500px;
-  background-color: skyblue;
+  background-color: #f0f0f0;
   position: absolute;
   right: 0;
   top: 165px;
